@@ -20,6 +20,19 @@ Ctrl + C 可以停止服务器
 # 浏览器访问
 http://127.0.0.1:4200/
 
+# 发布到 GitHub
+ng build --prod --output-path docs --base-href
+
+当构建完成时，把 docs/index.html 复制为 docs/404.html
+
+提交你的更改，并推送
+
+在 GitHub 的项目页中，把该项目配置为从 docs 目录下发布
+
+你可以到 `https://<user_name>.github.io/<project_name>/` 中查看部署好的页面
+
+如 https://LAUHank.github.io/demo-angular/
+
 # DemoAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.6.
