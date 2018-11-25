@@ -1,3 +1,20 @@
+# 说明
+首次下载本项目时，先安装好Node.js及npm，再安装AngularJS
+
+之后操作步骤如下
+
+git  clone  https://github.com/LAUHank/demo-angular.git
+
+cd  demo-angular
+
+npm  install
+
+ng  build
+
+会在当前项目目录下生成一个  dist/  目录
+
+此目录下有一个  demo-angular  目录，就相当于WebRoot了
+
 # 参考
 https://www.angular.cn/guide/quickstart
 
